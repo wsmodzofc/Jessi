@@ -49,9 +49,9 @@ let handler = async (m, { conn, usedPrefix, command, isOwner }) => {
     }
 };
 
-handler.help = ['update];
-handler.tags = ['misc'];
-handler.command = /^(update)$/i;
+handler.help = ['update'];
+handler.tags = ['owner'];
+handler.command = /^(up|update|upd|u|p)$/i
 
 handler.owner = true
 handler.botAdmin = true
